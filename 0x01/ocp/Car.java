@@ -16,7 +16,7 @@ public class Car extends Vehicle implements IVehicleCar{
 
 	@Override
 	public void startVehicle() {
-		System.out.println("Ligando os motores");
+		System.out.println("Ligando os motores com Interface");
 		
 	}
 
