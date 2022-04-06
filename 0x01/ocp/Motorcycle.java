@@ -7,13 +7,13 @@ public class Motorcycle extends Vehicle implements IVehicleMotorcycle {
 
 	@Override
 	public void configureVehicle(String color, String year, double engine) {
-		// TODO Auto-generated method stub
+		System.out.println("Criando um moto com Interface: "+ color + " " + engine);
 		
 	}
 
 	@Override
 	public void startVehicle() {
-		// TODO Auto-generated method stub
+		System.out.println("Ligando os motores");
 		
 	}
 

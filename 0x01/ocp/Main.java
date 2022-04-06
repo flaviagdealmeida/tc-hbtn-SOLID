@@ -6,7 +6,7 @@ public class Main {
 		typeVehicle = TypeVehicle.CAR;
 
 		if (typeVehicle == TypeVehicle.CAR) {
-			Car car = new Car("white", "2022", 2.0, 4);
+			Car car = new Car("Azul", "2022", 2.6, 4);
 			car.startVehicle();
 		} else if (typeVehicle == TypeVehicle.MOTORCYCLE) {
 			Motorcycle motocycle = new Motorcycle("white", "2010", 250);

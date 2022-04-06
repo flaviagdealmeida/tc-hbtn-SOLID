@@ -10,14 +10,15 @@ public class Car extends Vehicle implements IVehicleCar{
 
 	@Override
 	public void configureVehicle(String color, String year, double engine, int seats) {
-		// TODO Auto-generated method stub
+		System.out.println("Criando um carro com Interface: "+ color + " " + engine);
 		
 	}
 
 	@Override
 	public void startVehicle() {
-		// TODO Auto-generated method stub
+		System.out.println("Ligando os motores");
 		
 	}
+
 
 }
