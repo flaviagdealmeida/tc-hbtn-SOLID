@@ -1,4 +1,4 @@
-public class Car implements IVehicleCar, IVehicle, IMotorVehicle{
+public class Car implements IVehicle, IMotorVehicle, IVehicleCar  {
 
 	@Override
 	public void kmPerLitre() {
