@@ -1,10 +1,5 @@
-public class Motorcycle implements IVehicle, IVehicleMotorcycle {
+public class Motorcycle implements IVehicle, IVehicleMotorcycle, IMotorVehicle {
 
-	@Override
-	public void kmPerLitre() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	@Override
 	public void configureMotorcycle(String color, String year, double engine) {
@@ -18,6 +13,11 @@ public class Motorcycle implements IVehicle, IVehicleMotorcycle {
 		
 	}
 
+	@Override
+	public void kmPerLitre() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
