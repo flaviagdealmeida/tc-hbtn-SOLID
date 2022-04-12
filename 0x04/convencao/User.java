@@ -1,18 +1,18 @@
 class UsersModels {
 
-int IdUser;
+int idUser;
 
-String Descricao;
+String descricao;
 
 final static int IDADEMINIMA = 18;
 
 
-public FetchUsers() { return [];}
+public fetchUsers() { return [];}
 
 
-public AllUsers() {return [];}
+public allUsers() {return [];}
 
 
-public GetUsers() {return [];}
+public getUsers() {return [];}
 
 }
