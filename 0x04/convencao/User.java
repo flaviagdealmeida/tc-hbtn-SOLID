@@ -4,7 +4,7 @@ int idUser;
 
 String descricao;
 
-final static int IDADEMINIMA = 18;
+final static int IDADE_MINIMA = 18;
 
 
 public fetchUsers() { return [];}
