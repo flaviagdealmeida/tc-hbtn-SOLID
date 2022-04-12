@@ -12,15 +12,15 @@ FileHandler fileHandler;
 
 fileHandler = new FileHandler("logs.txt");
 
-Logger.addHandler(fileHandler);
+logger.addHandler(fileHandler);
 
 SimpleFormatter simpleFormatter = new SimpleFormatter();
 
 fileHandler.setFormatter(simpleFormatter);
 
-Logger.info("Log test");
+logger.info("Log test");
 
-Logger.info("Hi In the main class test");
+logger.info("Hi In the main class test");
 
 }
 
